@@ -1,0 +1,6 @@
+1. Készüljön express szerver, ami a 3000-es porton várja a kéréseket
+2. Legyen egy default ('/') route amin egy get utasíás visszaküld egy 'Hello' üzenetet
+3. Legyen egy route fajl, ami harom route-ot definial: /media GET és POST, /user PUT
+4. Az első küldjön vissza egy 200-as ok státuszt, a második egy 404 errort, a harmadik 500-as hibakódot és
+    console.log-ba írja ki, hogy 'Erre ráhívott'
+5. Ezt a routes fájlt két app.use is használja, az egyik legyen '/hello', a második '/world'
